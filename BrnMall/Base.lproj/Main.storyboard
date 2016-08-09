@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mNC-hw-zrn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--我的-->
+        <scene sceneID="Zeq-VD-sGt">
+            <objects>
+                <viewController id="Ypz-Lj-qSV" customClass="MineViewController" customModule="BrnMall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tj5-gz-VYk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zpp-j3-l3H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7iY-8V-lhP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" image="v2_my" selectedImage="v2_my_r" id="2NA-43-jin"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLt-Hg-sAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2372" y="-1689"/>
+        </scene>
+        <!--分类-->
+        <scene sceneID="e4o-fT-x8D">
+            <objects>
+                <viewController id="mTS-iN-Wfv" customClass="CategoryViewController" customModule="BrnMall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nwu-Sr-8OG"/>
+                        <viewControllerLayoutGuide type="bottom" id="k8V-Od-sPP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W5D-Ma-2VJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="分类" image="v2_order" selectedImage="v2_order_r" id="vUd-xG-tEi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dh6-FV-OA3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1203" y="-2605"/>
+        </scene>
+        <!--购物车-->
+        <scene sceneID="3yX-A0-3pY">
+            <objects>
+                <viewController id="n7K-w9-3FB" customClass="ShopCartViewController" customModule="BrnMall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xeX-ux-dd9"/>
+                        <viewControllerLayoutGuide type="bottom" id="xQG-P3-p7L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tHX-Ui-ear">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="购物车" image="shopCart" selectedImage="shopCart_r" id="7wQ-r2-0cN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yNc-qr-MFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1691" y="-1897"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="rc9-sI-AnJ">
+            <objects>
+                <viewController id="5mW-G6-Mgy" customClass="HomeViewController" customModule="BrnMall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z0l-J6-nhW"/>
+                        <viewControllerLayoutGuide type="bottom" id="NZx-kT-LYC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0sm-g5-mav">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首页" image="v2_home" selectedImage="v2_home_r" id="H86-X8-eMF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3cp-6m-H1u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2103" y="-2946"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="qt3-4O-KuJ">
+            <objects>
+                <tabBarController id="hLR-DA-ug4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DPk-cK-RMv"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qnz-SI-UcR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5mW-G6-Mgy" kind="relationship" relationship="viewControllers" id="Jkm-Qs-60H"/>
+                        <segue destination="mTS-iN-Wfv" kind="relationship" relationship="viewControllers" id="gbV-8S-8zd"/>
+                        <segue destination="n7K-w9-3FB" kind="relationship" relationship="viewControllers" id="HjF-e6-r0I"/>
+                        <segue destination="Ypz-Lj-qSV" kind="relationship" relationship="viewControllers" id="7ig-TI-GDq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NeM-nY-1ec" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2739" y="-2637"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nCX-pw-GUk">
+            <objects>
+                <navigationController id="mNC-hw-zrn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lkW-Mi-fDH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hLR-DA-ug4" kind="relationship" relationship="rootViewController" id="uZq-aY-yfC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="83h-SH-eGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3435" y="-2557"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shopCart" width="26" height="26"/>
+        <image name="shopCart_r" width="40" height="40"/>
+        <image name="v2_home" width="36" height="36"/>
+        <image name="v2_home_r" width="40" height="40"/>
+        <image name="v2_my" width="40" height="40"/>
+        <image name="v2_my_r" width="40" height="40"/>
+        <image name="v2_order" width="40" height="40"/>
+        <image name="v2_order_r" width="40" height="40"/>
+    </resources>
+</document>

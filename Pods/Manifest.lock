@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (3.3.1)
+  - Argo (3.0.1)
+  - Cosmos (1.2.2)
+  - CryptoSwift (0.4)
+  - Kingfisher (2.4.0)
+  - MJRefresh (3.1.0)
+  - ObjectMapper (1.2.0)
+  - PureLayout (3.0.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SnapKit (0.20.0)
+  - SVProgressHUD (2.0.3)
+  - SwiftyJSON (2.3.2)
+  - SWXMLHash (2.3.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.3.1)
+  - Argo (~> 3.0.1)
+  - Cosmos (~> 1.2.2)
+  - CryptoSwift (~> 0.4)
+  - Kingfisher (~> 2.4.0)
+  - MJRefresh (~> 3.1.0)
+  - ObjectMapper (~> 1.2.0)
+  - PureLayout (~> 3.0.1)
+  - SDWebImage (~> 3.7.5)
+  - SnapKit (~> 0.20.0)
+  - SVProgressHUD (~> 2.0.3)
+  - SwiftyJSON (~> 2.3.2)
+  - SWXMLHash (~> 2.3.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  Argo: 22c5d62b7967020a641468c91dc9488bea9523b8
+  Cosmos: 87c49100c69d2cb2eebfa4eb8d1e801fe29ff774
+  CryptoSwift: 584eac7d00b2f497fe7b20de271b8c0c52fff844
+  Kingfisher: 9171a424ee7f8031f518f649bb850d1eab541247
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SnapKit: 5fce3c1bbbf1fbd31de9aa92f33eb9fa03f15650
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  SWXMLHash: 795c66e74f4cc9473ad6465c6653c5a6f59f417e
+
+COCOAPODS: 0.39.0
